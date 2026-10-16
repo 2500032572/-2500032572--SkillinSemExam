@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+nav {
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+}
+
+button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
